@@ -1,0 +1,30 @@
+macro=;
+ if ( argnumber < 2 ) errmsg Give trees to compare as argument; end 
+ set 0 collapse ; 
+ collapse none ;
+tplot %1;
+tplot %2;
+
+ tcomp * %1 %2 ;
+ tcomp * %2 %1 ;
+ 
+ set 2 ntrees-1;
+ 
+ set 3 ntrees;
+ 
+ quote ref arbol %1;
+ 
+ tplot '2';
+ 
+ quote ref arbol %2;
+ 
+ tplot '3';
+ 
+ 
+ set 1 ((tnodes[ntrees]+tnodes[(ntrees-1)])/(tnodes[%1]+tnodes[%2])); 
+ collapse '0' ;
+ set 0 ntrees - 1 ;
+ keep '0' ; 
+quote Robinson-Foulds distance between trees %1-%2 is '/.3(1)' ; 
+proc/; 
+
