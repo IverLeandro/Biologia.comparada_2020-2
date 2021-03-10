@@ -1,0 +1,101 @@
+cd J:\sitio.prueba\resultados
+piwe=20
+proc molecular_data.tnt
+xpiwe=
+xpiwe]
+hold 1000;
+drift: iter 10;
+rseed 0;
+mult: replic 100 hold 10;
+mult=
+nelsen*;
+taxname=
+ttags=
+tchoose /
+tsave example.tre;
+save
+proc Tree1.tre
+taxname=
+ttags=
+resample: replic 500 boot; export- Parsimony1.tre;
+
+piwe=21
+proc molecular_data.tnt
+xpiwe=
+xpiwe]
+hold 1000;
+drift: iter 10;
+rseed 0;
+mult: replic 100 hold 10;
+mult=
+nelsen*;
+taxname=
+ttags=
+tchoose /
+tsave Tree2.tre;
+save
+proc Tree2.tre
+taxname=
+ttags=
+resample: replic 500 boot; export- Parsimony2.tre;
+
+piwe=23
+proc molecular_data.tnt
+xpiwe=
+xpiwe]
+hold 1000;
+drift: iter 10;
+rseed 0;
+mult: replic 100 hold 10;
+mult=
+nelsen*;
+taxname=
+ttags=
+tchoose /
+tsave Tree3.tre;
+save
+proc Tree3.tre
+taxname=
+ttags=
+resample: replic 500 boot; export- Parsimony3.tre;
+
+piwe=26
+proc molecular_data.tnt
+xpiwe=
+xpiwe]
+hold 1000;
+drift: iter 10;
+rseed 0;
+mult: replic 100 hold 10;
+mult=
+nelsen*;
+taxname=
+ttags=
+tchoose /
+tsave Tree4.tre;
+save
+proc Tree4.tre
+taxname=
+ttags=
+resample: replic 500 boot; export- Parsimony4.tre;
+
+cd J:\sitio.prueba\resultados
+piwe=30
+proc molecular_data.tnt
+xpiwe=
+xpiwe]
+hold 1000;
+drift: iter 10;
+rseed 0;
+mult: replic 100 hold 10;
+mult=
+nelsen*;
+taxname=
+ttags=
+tchoose /
+tsave Tree5.tre;
+save
+proc Tree5.tre
+taxname=
+ttags=
+resample: replic 500 boot; export- Parsimony5.tre;
