@@ -1,0 +1,15 @@
+#NEXUS
+
+begin trees ; 
+tree tagged_tree1 = [&U] 
+('Andrias_japonicus',('Hynobius_retardatus',('Hynobius_hirosei',('Hynobius_formosanus',(('Hynobius_tokyoensis','Hynobius_abei','Hynobius_takeadai')98,('Hynobius_amjiensis',('Hynobius_leechi',('Hynobius_okiensis',('Hynobius_tsuensis','Hynobius_nebulosus')90)55)50,('Hynobius_hidamontanus','Hynobius_boulengeri')80)97)88)85)67)100);
+tree tagged_tree2 = [&U] 
+('Andrias_japonicus',('Hynobius_retardatus',('Hynobius_hirosei',('Hynobius_formosanus',(('Hynobius_tokyoensis','Hynobius_abei','Hynobius_takeadai')98,('Hynobius_amjiensis',('Hynobius_leechi',('Hynobius_okiensis',('Hynobius_tsuensis','Hynobius_nebulosus')91)56)51,('Hynobius_hidamontanus','Hynobius_boulengeri')82)97)89)83)67)100);
+tree tagged_tree3 = [&U] 
+('Andrias_japonicus',('Hynobius_retardatus',('Hynobius_hirosei',('Hynobius_formosanus',(('Hynobius_tokyoensis','Hynobius_abei','Hynobius_takeadai')99,('Hynobius_leechi','Hynobius_amjiensis',('Hynobius_okiensis',('Hynobius_tsuensis','Hynobius_nebulosus')92)52,('Hynobius_hidamontanus','Hynobius_boulengeri')79)96)90)85)65)100);
+tree tagged_tree4 = [&U] 
+('Andrias_japonicus',('Hynobius_retardatus',('Hynobius_hirosei',('Hynobius_formosanus',(('Hynobius_tokyoensis','Hynobius_abei','Hynobius_takeadai')99,('Hynobius_amjiensis',('Hynobius_leechi',('Hynobius_okiensis',('Hynobius_tsuensis','Hynobius_nebulosus')92)56)51,('Hynobius_hidamontanus','Hynobius_boulengeri')82)96)92)82)65)100);
+tree tagged_tree5 = [&U] 
+('Andrias_japonicus',('Hynobius_retardatus',('Hynobius_hirosei',('Hynobius_formosanus',(('Hynobius_tokyoensis','Hynobius_abei','Hynobius_takeadai')98,('Hynobius_leechi','Hynobius_amjiensis',('Hynobius_okiensis',('Hynobius_tsuensis','Hynobius_nebulosus')91)52,('Hynobius_hidamontanus','Hynobius_boulengeri')78)96)88)84)64)100);
+
+end ; 
